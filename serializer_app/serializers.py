@@ -49,3 +49,8 @@ class Employee2Serializer(serializers.Serializer):
         instance.password = validated_data.get('password', instance.password)
         instance.save()
         return instance
+
+
+# https://github.com/MraduleshMorya/Ecom2
+# https://github.com/MraduleshMorya/Django_restapi_practice
+# https://github.com/MraduleshMorya/Django_restapi_practice.git
